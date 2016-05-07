@@ -1,0 +1,225 @@
+Variables: firstClientAnswer, secondClientAnswer, thirdClientAnswer
+
+TEST PLANS 1
+
+INPUT: a , A, A
+
+EXPECTED RESULTS: You are most like a WARRIOR... Your lucky number is: + luckyNumber +
+
+ACTUAL RESULTS: (no output)
+
+TEST PLANS 2
+
+INPUT: A, A, b
+
+EXPECTED RESULTS: You are most like a SORCERER... Your lucky number is: + luckyNumber +
+
+ACTUAL RESULTS: (no output)
+
+TEST PLANS 3
+
+INPUT: a, b, B
+
+EXPECTED RESULTS: You are most like a MAGE... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a MAGE... Your luck number is + luckyNumber+
+
+TEST PLANS 4
+
+INPUT: A, A, c
+
+EXPECTED RESULTS: You are most like a ROGUE... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: (no output)
+
+TEST PLANS 5
+
+INPUT: a, c, c
+
+EXPECTED RESULTS: You are most like a THEIF... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a THEIF... Your lucky number is + luckyNumber +
+
+TEST PLANS 6
+
+INPUT: b, A, A
+
+EXPECTED RESULTS: You are most like a GLADIATOR... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a GLADIATOR... You lucky number is + luckyNumber +
+
+TEST PLANS 7
+
+INPUT: B, A, B
+
+EXPECTED RESULTS: You are most like a CLERIC... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a CLERIC... You lucky number is + luckyNumber +
+
+TEST PLANS 8
+
+INPUT: b, B, b
+
+EXPECTED RESULTS: You are most like a WIZARD... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: (no output)
+
+TEST PLANS 9
+
+INPUT: B, b, C
+
+EXPECTED RESULTS: You are most like a TRICKSTER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a TRICKSTER... Your lucky number is + luckyNumber+
+
+TEST PLANS 10
+
+INPUT: b, c, c
+
+EXPECTED RESULTS: You are most like a BARTER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a BARTER... Your lucky number  is + luckyNumber +
+
+TEST PLANS 11
+
+INPUT: c, a, A
+
+EXPECTED RESULTS: You are most like a WANDERER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a WANDERER... Your lucky number is + luckyNumber +
+
+TEST PLANS 12
+
+INPUT: C, B, a
+
+EXPECTED RESULTS: You are most like a MONK... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a MONK... Your lucky number is + luckyNumber +
+
+TEST PLANS 13
+
+INPUT: c, b, b
+
+EXPECTED RESULTS: You are most like a WITCH... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: (no output)
+
+TEST PLANS 14
+
+INPUT: c, c, b
+
+EXPECTED RESULTS: You are most like a SHAMAN... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a SHAMAN... Your lucky number is + luckyNumber +
+
+TEST PLANS 15
+
+INPUT: c, C, C
+
+EXPECTED RESULTS: You are most like a ASSASSIN... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a ASSASSIN... Your lucky number is + luckyNumber +
+
+TEST PLANS 16
+
+INPUT: A, b, C
+
+EXPECTED RESULTS: You are most like a TREASURE HUNTER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a TREASURE HUNTER... You lucky number is + luckyNumber +
+
+TEST PLANS 17
+
+INPUT: c, a, C
+
+EXPECTED RESULTS: You are most like a PICKPOCKET... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a PICKPOCKET... Your lucky number is + luckyNumber +
+
+TEST PLANS 18
+
+INPUT: c, a, b
+
+EXPECTED RESULTS: You are most like a PYROMANCER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a PYROMANCER... Your lucky number is + luckyNumber +
+
+TEST PLANS 19
+
+INPUT: c, b, c
+
+EXPECTED RESULTS: You are most like a MERCHANT... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a MERCHANt... Your lucky number is + luckyNumber +
+
+TEST PLANS 20
+
+INPUT: C, B, a
+
+EXPECTED RESULTS: You are most like a TEMPLAR... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a TEMPLAR... Your lucky number is + luckyNumber+
+
+TEST PLANS 21
+
+INPUT: b, a, c
+
+EXPECTED RESULTS: You are most like a MERCENARY... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a MERCENARY... Your lucky number is + luckyNumber +
+
+TEST PLANS 22
+
+INPUT: c, C, A
+
+EXPECTED RESULTS: You are most like a PALADIN... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a PALADIN... Your lucky number is + luckyNumber +
+
+TEST PLANS 23
+
+INPUT: b, c, b
+
+EXPECTED RESULTS: You are most like a GEOMANCER... your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a GEOMANCER... Your lucky number is + luckyNumber +
+
+TEST PLANS 24
+
+INPUT: A, C, a
+
+EXPECTED RESULTS: You are most like a BARTER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like a BARTER... Your lucky number is + luckyNumber +
+
+TEST PLANS 25
+
+INPUT: a, b, A
+
+EXPECTED RESULTS: You are most like a BRAWLER... Your lucky number is + luckyNumber +
+
+ACTUAL RESULTS: You are most like BRAWLER... Your lucky number is + luckyNumber +
+
+TEST PLANS 26
+
+INPUT: (blank)
+
+EXPECTED RESULTS: Too Scared to answer correctly?  Try A, B, or C please!
+
+ACTUAL RESULTS: Too Scared to answer correctly?  Try A, B, or C please!  Your lucky Number is + luckyNumber +!
+
+TEST PLANS 27
+
+INPUT: a, (blank)
+
+EXPECTED RESULTS: Do you even wanna know what adventurer you would be like?  Try answering A, B, or C!
+
+ACTUAL RESULTS: Do you even wanna know what adventurer you would be like?  Try answering A, B, or C! Your lucky number is + luckyNumber +!
+
+TEST PLANS 28
+
+INPUT: a, b, (blank)
+
+EXPECTED RESULTS: You're not playing the game correctly!  Try answering A, B, or C!
+
+ACTUAL RESLUTS: You're not playing the game correctly!  Try answering A, B, or C! Your lucky number is + luckyNumber +!

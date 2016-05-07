@@ -1,0 +1,174 @@
+AdventurerPicker
+initialize firstClientAnswer to ""
+initialize output to ""
+initialize secondClientAnswer to ""
+
+prompt for firstClientAnswer with "If you had a favorite pass-time,
+  would you pick: A. Having a drink with friends B. Sitting at home and reading a book C. Traveling on your own"
+
+IF firstClientAnswer = A THEN
+  prompt for secondClientAnswer with "Which of these would you prefer to eat?
+    A. Grilled chicken B. Oatmeal and grits C. Garden Medley
+
+  IF secondClientAnswer = A THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are most like a WARRIOR!  You are stong and a powerful ally
+        to anyone who could use a helping hand.  You choose might to solve your problems!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a SORCERER!  You have only one very close friend but you
+        don't really care for anyone else.  You like to learn but on the fly rather than in books!"
+
+    ELSE IF thirdClientAnswer = C THEN
+      output = "You are most like a ROGUE!  You are pretty solitary.  You feel like
+        emotions and relationship can get in the way of your goals."
+
+
+  ELSE IF secondClientAnswer = B THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose?"
+      A. Steel B. Mithril C. Gold
+
+    IF thirdClientAnswer = A THEN
+      output = "You are most like BRAWLER!  You are always ready for a fight and
+        nothing ever phases you.  You have thick skin and an attitude that could
+          put a rhino to shame!  Your tenacity is your main attribute!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a MAGE!  You have very strong innate learning ability.
+        You don't waste time studying and would rather field test!"
+
+    ELSE IF thridClientAnswer  = C THEN
+      output = "You are most like a TREASURE HUNTER! You seek glory and laurels!  You can't wait
+        to see what your next adventure brings you!"
+
+  ELSE IF secondClientAnswer = C THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are most like a BARD!  You love music and let the beat take you
+        to new hights!  You like to be the center of attention and enjoy the company of others!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a WARLOCK!  You summon strength from the negativity that surrounds
+       you.  Nothing is ever too big a challenge and everything can be brought down with enough weight"
+
+    ELSE IF thirdClientAnswer = C THEN
+      output = "You are most like a THIEF!  You find happiness when you discover people's secrets.
+        You like to twist people's arms using their secrets if they aren't complient with your plans!"
+
+ELSE IF firstClientAnswer = B THEN
+  prompt for secondClientAnswer with "Which of these would you prefer to eat?
+    A. Grilled chicken B. Oatmeal and grits C. Garden Medley
+
+  IF secondClientAnswer = A THEN
+    prompt for thridClientAnswer with "Which of these metals would you choose
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are most like a GLADIATOR!  You prefer to tackle problems on your
+        Your will is unbreakable and you are willing to take on any challenge!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a Cleric.  You believe that protecting your friends means
+        keeping them on the path of light and you are willing to go out to battle right by their side."
+
+    ELSE IF thridClientAnswer = C THEN
+      output = "You are most like a MERCENARY!  You do things only if they have a guarenteed payout.
+        You refuse to waste your time if it's not worth experience!"
+
+  ELSE IF secondClientAnswer = B THEN
+    prompt for thridClientAnswer with "Which of thse metals would you choose
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are a FIGHTER!  You never want to raise your fists unless provoked.
+        You are of a strong discipline and always wait to make the right move!
+          Patience is how you win!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output  = "You are most like a WIZARD!  You love to study and you take careful consideration in everything
+        you do.  You believe everything has purpose and do not like to leave things to chance!"
+
+    ELSE IF thirdClientAnswer  = C THEN
+      output = "You are most like a TRICKSTER!  You prefer the merryment of confusing people
+        You can bring great joy to people or great misery!  You are fun but no one ever
+          really knows your agenda."
+
+  ELSE IF secondClientAnswer = C THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose?
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output  = "You are most like a TEMPLAR.  The sheild is what guides your purpose
+        You live to protect and never want to see those around you hurt."
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a GEOMANCER!  You ask the earth and it's minerals to
+        lend you strength.  You are most happy digging right into problems and using what you've
+          learned to move ahead!"
+
+    ELSE IF thirdClientAnswer = C THEN
+      output = "You are most like a BARTER!  You like to exchange information to figure out your problems.
+        Any idea worth having is worth trading.  You usually find the price in your favor due to your charisma!"
+
+ELSE IF firstClientAnswer = C THEN
+  prompt for secondClientAnswer with "Which of these would you prefer to eat?
+    A. Grilled chicken B. Oatmeal and grits C. Garden Medley
+
+  IF secondClientAnswer = A THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose?
+      A. STeel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are most like a WANDERER!  You don't care what people thing of
+        and you love to be nomadic in everything you do!  Change is your motivator!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a PYROMANCER!  You are hot headed and passionate!  Everything
+        you do pushes you to insane limits.  In essence, you are limitless!"
+
+    ELSE IF thirdClientAnswer = C THEN
+      output = "You are most like a PICKPOCKET!  You take information from other people and
+        use it to make your life easier!  You have a knack for going unnoticed!
+
+  ELSE IF secondclientAnswer = B THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose
+      A. Steel B. Mithril C. Gold"
+
+    IF thirdClientAnswer = A THEN
+      output = "You are like a MONK!  You use your fists to protect balance and are
+        offset when things are out of place.  You believe in karmic justice and would
+          always perfer a peaceful resolution."
+
+    ELSE IF thirdClientAnswer  = B THEN
+      output = "You are most like a WITCH!  You learn from gathering all the information
+        around you and from your travels and you throw it into a big pot of knowledge! This
+          pot of knowledge is your source of power!"
+
+    ELSE IF thirdClientAnswer = C THEN
+      output = "You are most like MERCHANT!  You have a ton of worldly experience but you
+        don't like to share it unless you feel like you can gain something!  You build relationships
+          through your transactions are willing to only give discounts to your best of friends!"
+
+  ELSE IF seconClientAnswer = C THEN
+    prompt for thirdClientAnswer with "Which of these metals would you choose?"
+      A. Steel B. Mithril C. Gold
+
+    IF thirdClientAnswer = A THEN
+     output = "You are most like a PALADIN!  The light guides your path!  You always
+      believe that justice rules over everything else.  You never turn your back on those
+      in need!"
+
+    ELSE IF thirdClientAnswer = B THEN
+      output = "You are most like a SHAMAN!  You believe that nature can cure all!
+        You use the elements to decide what to do during the day and the weather can affect your mood!"
+
+    ELSE IF thridClientAnswer = C THEN
+      output = "You are most like an ASSASSIN!  You have the most fun exploiting weeknesses
+        in the problems you face.  You do not risk an uncalculated attacks and are very precise!"
+ENDIF
+END
