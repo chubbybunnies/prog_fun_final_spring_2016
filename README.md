@@ -1,7 +1,9 @@
 # Adventurer Picker
 
-A fun final project for my programming fundamentals class
+You answer the questions (honestly) and get an adventurer that you are most like!
 
-##Steven Rivera
+##Author
 
-You answer the (honestly) and get an adventurer that you are most like!
+Steven Rivera
+
+
